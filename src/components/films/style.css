@@ -1,0 +1,14 @@
+.description{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+
+._active{
+    opacity: 1;
+    transition: 2s;
+}
+
+._disabled{
+   opacity: 0;
+}
