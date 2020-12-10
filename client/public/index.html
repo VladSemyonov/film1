@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" type="text/css" href="/css/semantic.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+
+  <script>
+    function showFile(input) {
+      let file = input.files[0];
+
+      alert(`File name: ${file.name}`); // например, my.png
+      alert(`Last modified: ${file.lastModified}`); // например, 1552830408824
+    }
+
+  </script>
+  <body>
+    <div id="root" />
+    <input type="file" onchange="showFile(this)">
+  </body>
+</html>

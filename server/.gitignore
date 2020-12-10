@@ -3,7 +3,7 @@
 .idea
 /snippets
 package-lock.json
-
+node_modules
 
 # dependencies
 /node_modules
@@ -22,6 +22,7 @@ package-lock.json
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
