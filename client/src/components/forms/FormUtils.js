@@ -15,7 +15,7 @@ const setValue = {
 const setFormObject = (data, fn) => ({target}) => {
     const value = target.type === 'checkbox' ? target.checked : target.value;
 
-    return fn({...data, [target.name]: setValue[target.type](value)})
+    return fn({...data, [target.name]: value})
 }
 
 export default setFormObject
